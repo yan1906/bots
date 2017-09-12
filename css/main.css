@@ -3,18 +3,22 @@ body{
 	font-size: 16px;
 	min-width: 320px;
 }
-
+.p0{
+	padding: 0;
+}
 /*  HEADER  */
 header{
 	background: url('../img/banner.jpg') no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
-	height: 600px;
+	padding-bottom: 60px;
 }
 
 nav{
 	height: 94px;
 	line-height: 94px;
+	width: 100%;
+	z-index: 999;
 }
 
 .menu{
@@ -63,3 +67,70 @@ nav{
 	margin-bottom: 30px;
 }
 /*  /HEADER  */
+
+/*PARAM SECTION*/
+.paramSection{
+	padding: 75px 0;
+}
+.paramBlock{
+	text-align: center;
+	margin-bottom: 50px;
+}
+.paramBlock i{
+	font-size: 70px;
+	color: #e84545;
+}
+.paramBlock h3{
+	text-transform: uppercase;
+	font-size: 18px;
+	font-family: "RalewayBold", sans-serif;
+}
+.paramBlock p{
+	font-size: 14px;
+}
+/*PARAM SECTION*/
+
+/*WORK SECTION*/
+.workBlock{
+	position: relative;
+}
+.imageWrapper{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(232, 69, 69, .7);
+	opacity: 0;
+	display: flex;
+	transition: 800ms;
+}
+.imageWrapper:hover{
+	opacity: 1;
+}
+.workDescr{
+	margin: auto;
+	color: #fff;
+	text-align: center;
+}
+
+/*WORK SECTION*/
+
+/*TEAM SECTION*/
+.teamSection{
+	padding: 75px 0;
+	color: #6c7279;
+}
+.teamBlock{
+	margin-bottom: 20px;
+}
+.teamBlock h4{
+	font-family: "RalewayBold", sans-serif;
+	color: #000;
+}
+.teamBlock > span{
+	color: #e84545;
+	text-transform: uppercase;
+}
+
+/*TEAM SECTION*/

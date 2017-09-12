@@ -10,7 +10,43 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-
+	nav{
+		height: 60px;
+		line-height: 60px;
+		background-color: #2a2e48;
+		position: fixed;
+	}
+	.topLine{
+		display: none;
+	}
+	.logo{
+		padding-top: 15px;
+	}
+	.menuBtn{
+		height: 40px;
+		width: 40px;
+		border-radius: 50%;
+		background-color: #e84545;
+	}
+	.menuBtn span{
+		color: #fff;
+		top: -17px;
+	}
+	#topMenu{
+		background-color: #2a2e48;
+		padding: 20px 0;
+	}
+	.menu li{
+		display: block;
+		text-align: center;
+	}
+	.menu li a{
+		display: block;
+	}
+	.menu li a:hover{
+		background-color: #fff;
+		color: black;
+	}
 }
 
 /* Extra Small Devices, Phones */
