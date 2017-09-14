@@ -134,3 +134,102 @@ nav{
 }
 
 /*TEAM SECTION*/
+
+/*DOWNLOAD SECTION*/
+
+.my_btn{
+	background-color: #e84545;
+	border: none;
+	text-transform: uppercase;
+	border-radius: 2px;
+	color: #fff;
+}
+.btn_md{
+	padding: 10px 30px;
+}
+
+.btn_lg{
+	padding: 15px 40px;
+}
+
+.download-s{
+	padding: 0 0 40px 0;
+}
+.download_block{
+	text-align: center;
+}
+.download_block h3{
+	font-size: 28px;
+}
+.download_block p{
+	font-family: "RalewayBold", sans-serif;
+	text-transform: uppercase;
+	padding-bottom: 40px;
+	font-size: 12px;
+}
+
+
+
+/*DOWNLOAD SECTION*/
+
+
+/*FOOTER SECTION*/
+
+.footerSection{
+	background-color: #3a3e64;
+	padding: 50px 0 0 0;
+}
+.footerBlock{
+	text-align: center;
+}
+.footerBlock h3{
+	font-size: 12px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.footerBlock p{
+	font-size: 10px;
+	color: #9092a7;
+}
+.footerBtn{
+	background-color: #3a3e64;
+	border: 1px solid #fff;
+	color: #fff;
+}
+.footerBlock2{
+	text-align: center;
+	padding: 20px 0 20px;
+    background-color: #313454;
+    margin-top: 25px;
+}
+
+.footerBlock2 p, .footerBlock2 span{
+	color: #808080;
+	font-size: 12px;
+}
+.footerBlock2 span{
+	color: #fff;
+}
+.footerBlock2 i{
+	color: #e84545;
+	font-size: 12px;
+}
+/*FOOTER SECTION*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
